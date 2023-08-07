@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalculatorService.Server</name>
+    </assembly>
+    <members>
+        <member name="M:CalculatorService.Server.Controllers.V1.CalculatorController.AddAsync(CalculatorService.Server.Models.Add)">
+            <summary>
+            Returns the sum of multiple numbers 
+            </summary>
+            <param name="operands">A list of numbers</param>
+            <param name="X-Evi-Tracking-Id-Evi-Tracking-Id">optional: id tracking for save the current operand in the database</param>      
+            <response code="200">Return the result of addition</response>
+            <response code="400">At least two numeric operands are required.</response>
+            <response code="500">Internal Error</response> 
+        </member>
+        <member name="M:CalculatorService.Server.Controllers.V1.CalculatorController.SubtractAsync(CalculatorService.Server.Models.Substract)">
+            <summary>
+            Returns the subtract of multiple numbers
+            </summary>
+            <param name="operands">A list of numbers</param>
+            <param name="X-Evi-Tracking-Id-Evi-Tracking-Id">optional: id tracking for save the current operand in the database</param>      
+            <response code="200">Return the result of subtract</response>
+            <response code="400">At least two numeric operands are required.</response>
+            <response code="500">Internal Error</response> 
+        </member>
+        <member name="M:CalculatorService.Server.Controllers.V1.CalculatorController.MultiplyAsync(CalculatorService.Server.Models.Multiply)">
+            <summary>
+            Returns the multiply of multiple numbers
+            </summary>
+            <param name="operands">A list of numbers</param>
+            <param name="X-Evi-Tracking-Id-Evi-Tracking-Id">optional: id tracking for save the current operand in the database</param>      
+            <response code="200">Return the result of multiply</response>
+            <response code="400">At least two numeric operands are required.</response>
+            <response code="500">Internal Error</response> 
+        </member>
+        <member name="M:CalculatorService.Server.Controllers.V1.CalculatorController.DivisionAsync(CalculatorService.Server.Models.Division)">
+            <summary>
+            Returns the division of multiple numbers
+            </summary>
+            <param name="operands">A list of numbers</param>
+            <param name="X-Evi-Tracking-Id-Evi-Tracking-Id">optional: id tracking for save the current operand in the database</param>      
+            <response code="200">Return the result of division</response>
+            <response code="400">At least two numeric operands are required.</response>
+            <response code="500">Internal Error</response> 
+        </member>
+        <member name="M:CalculatorService.Server.Controllers.V1.CalculatorController.SquareRootAsync(CalculatorService.Server.Models.SquareRoot)">
+            <summary>
+            Returns the square root of a number
+            </summary>
+            <param name="operand">A number</param>
+            <param name="X-Evi-Tracking-Id-Evi-Tracking-Id">optional: id tracking for save the current operand in the database</param>      
+            <response code="200">Return the result of Square root</response>
+            <response code="400">At least two numeric operands are required.</response>
+            <response code="500">Internal Error</response> 
+        </member>
+        <member name="M:CalculatorService.Server.Controllers.V1.CalculatorController.GetJournalEntriesAsync(System.String)">
+            <summary>
+            Returns a object with the operations history
+            </summary>
+            <param name="trackingId">A string trackingId</param>  
+            <response code="200">Return the result of division</response>
+            <response code="400">Tracking ID is required for querying the journal.</response>
+            <response code="404">No journal entries found for the provided Tracking ID.</response>
+            <response code="500">Internal Error</response> 
+        </member>
+    </members>
+</doc>

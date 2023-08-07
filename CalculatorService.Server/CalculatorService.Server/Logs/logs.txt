@@ -1,0 +1,9 @@
+[12:28:06  [Information] Method: Void MoveNext() Information: At least two numeric operands are required.
+[12:43:19  [Information] Method: CalculatorService.Server.Controllers.V1.CalculatorController+<AddAsync>d__3At least two numeric operands are required.
+[13:03:30  [Information] Method: CalculatorService.Server.Controllers.V1.CalculatorController+<SubtractAsync>d__4At least two numeric in Minuend and Subtraends are required. Numbers of Subtraends: 1 Numbers of Minuend: 1
+[13:05:38  [Information] Method: CalculatorService.Server.Controllers.V1.CalculatorController+<MultiplyAsync>d__5At least two numeric operands are required.
+[13:11:02  [Information] Method: CalculatorService.Server.Controllers.V1.CalculatorController+<DivisionAsync>d__6At least two numeric operands are required.
+[13:11:12  [Information] Method: CalculatorService.Server.Controllers.V1.CalculatorController+<DivisionAsync>d__6Division by zero is not allowed.
+[13:11:19  [Information] Method: CalculatorService.Server.Controllers.V1.CalculatorController+<DivisionAsync>d__6Division by zero is not allowed.
+[14:13:06  [Information] Method: CalculatorService.Server.Controllers.V1.CalculatorController+<AddAsync>d__3At least two numeric operands are required.
+[14:13:23  [Information] Method: CalculatorService.Server.Controllers.V1.CalculatorController+<AddAsync>d__3At least two numeric operands are required.
