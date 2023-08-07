@@ -5,3 +5,5 @@ El proyecto se compone de la parte de API Rest donde vemos que hay una serie de 
 
 Luego existe un proyecto cliente donde prueba todos los calculos aritmeticos de la API, por ello se debe ejecutar primero la api y despues el cliente, con ello se muestra una todos los calculos con numeros prederteminados y con una historico de prueba.
 [![Swagger-calculator.jpg](https://i.postimg.cc/Kc7Mgxmv/Swagger-calculator.jpg)](https://postimg.cc/3WRRsMyP)
+
+[![descripcio-suma.jpg](https://i.postimg.cc/Dy2brHzQ/descripcio-suma.jpg)](https://postimg.cc/rzPmchxz)
